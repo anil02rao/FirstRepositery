@@ -1,0 +1,66 @@
+package com.anil;
+
+public class Product {
+
+	public static void main(String[] args) {
+
+		int a = 20; // Declaration of integer type of variable
+		char ch = 'a'; // Declaration of character type variable
+		/*
+		 * Here ch is a character and a is integer so ch will First conver into ASCII
+		 * (American Standard code of information interchange) value that is a=97
+		 */
+
+		// a+ch => 20+97 =117
+		System.out.println(a + ch + " is Output.");
+
+	}
+
+}
+
+
+<===================================================================>
+Output is :
+ 117 is Output.
+ 
+ 
+ 
+ ========================================================================================================================
+ Program 2:
+ 
+ /**
+ * @author  Priya
+  Question :
+  Evaluate the following Expression :
+  1. Math.floor(Math.min(13.7,-15.7))
+  2. K %= ++a + a-- * 5 - a where initially k=60, a=5
+ */
+package com.anil; // Declaration of package
+
+public class Calculate_Expression {
+
+	public static void main(String[] args) {
+
+		// Part 1:
+		/* 
+		 ------------------------------------------------------------------------------------------
+		 Math.min (13.5, -15.7) ==> Here Math is a class in java.lang package
+		 min(13.5, -15.7) == Here min is a method of Math class will return minimum value -15.7 
+		 ------------------------------------------------------------------------------------------
+		 Math.floor(-15.7) ==> Here Math is class and floor is a method will convert value from (-15.7) to (16.0) 
+		 */
+		System.out.println(Math.floor(Math.min(13.7, -15.7)));
+		
+		// Part 2:
+		int a = 0, k = 0; // Declaration of variable a and k
+	
+		System.out.println(k %= ++a + a-- * 5 - a); // Calculation of expression and print
+		
+	}
+
+}
+ <===============================>
+// Output is :
+  	
+  	-16.0
+	0
