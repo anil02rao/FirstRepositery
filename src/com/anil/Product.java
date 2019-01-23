@@ -11,6 +11,7 @@ public class Product {
 		 * (American Standard code of information interchange) value that is a=97
 		 */
 
+		
 		// a+ch => 20+97 =117
 		System.out.println(a + ch + " is Output.");
 
