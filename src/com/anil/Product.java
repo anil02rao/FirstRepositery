@@ -10,6 +10,7 @@ public class Product {
 		 * Here ch is a character and a is integer so ch will First conver into ASCII
 		 * (American Standard code of information interchange) value that is a=97
 		 */
+		
 		// a+ch => 20+97 =117
 		System.out.println(a + ch + " is Output.");
 
