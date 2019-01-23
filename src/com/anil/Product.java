@@ -4,7 +4,7 @@ public class Product {
 
 	public static void main(String[] args) {
 
-		int a = 20; // Declaration of integer type of variable
+		int a = 10; // Declaration of integer type of variable
 		char ch = 'a'; // Declaration of character type variable
 		/*
 		 * Here ch is a character and a is integer so ch will First conver into ASCII
